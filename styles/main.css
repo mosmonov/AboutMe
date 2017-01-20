@@ -1,0 +1,53 @@
+ body {
+ 	background: url("http://www.geocities.ws/kyrgyzstan/main/main1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	}
+h1 {
+	color: black;
+	text-align: center;
+	font-variant: small-caps;
+	font: 32px Helvetica, "Time New Roman", Arial;
+	margin: 100px 40% 0px 40%;
+	display: inline-block;
+	background: #FFF;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+nav {
+	margin-left: 10%;
+}
+nav a {
+	display: inline-block;
+	margin: 40px 40px;
+	text-decoration: none;
+	padding: 15px 45px;
+	border-radius: 5px;
+	color: black;
+	font-size: 28px;
+	background: #FFF;
+	border:1px solid black;
+}
+
+a:hover {
+	opacity: 0.5;
+	filter: alpha (opacity=50);
+}
+a:focus {
+	background: #FFF;
+}
+a:active {
+	background: #0087cc;
+	box-shadow: 0 2px 0 #006599;
+  	transform: translateY(3px); 	
+}
+.author p {
+	font-size: 24px;
+	text-align: center;
+	margin: 15%;
+	color: white;
+}
+
+
