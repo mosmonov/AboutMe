@@ -7,7 +7,7 @@
 	}
 
 nav {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 nav a {
 	display: inline-block;
@@ -52,10 +52,10 @@ a:active {
     border-radius: 5px;
   }
  .one {
- background: url("../pictures/kyrgyzstan.gif") no-repeat center;
+ background: url("../assets/kyrgyzstan.gif") no-repeat center;
  }
  .two {
-  background: #fff url("../pictures/baruch.jpeg") no-repeat center bottom;
+  background: #fff url("../assets/baruch.jpeg") no-repeat center bottom;
   text-align: center;
 }   
  .three {

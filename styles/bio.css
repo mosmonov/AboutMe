@@ -1,5 +1,5 @@
  body {
- 	background: url("../pictures/sary-chelek.jpeg") no-repeat center center fixed;
+ 	background: url("../assets/sary-chelek.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,13 +7,13 @@
 	}
 
 nav {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 nav a {
 	display: inline-block;
 	margin: 40px 40px;
 	text-decoration: none;
-	padding: 15px 45px;
+	padding: 15px 35px;
 	border-radius: 5px;
 	color: black;
 	font-size: 28px;
@@ -52,14 +52,14 @@ a:active {
     border-radius: 5px;
   }
  .one {
- background: url("../pictures/burana.jpeg") no-repeat left;
+ background: url("../assets/burana.jpeg") no-repeat left;
  }
  .two {
-  background: #fff url("../pictures/sulaiman-mnt.jpeg") no-repeat center bottom;
+  background: #fff url("../assets/sulaiman-mnt.jpeg") no-repeat center bottom;
   text-align: center;
 }   
  .three {
-  background: url("../pictures/mnt.jpeg") no-repeat top;
+  background: url("../assets/mnt.jpeg") no-repeat top;
 }
    
  .showbox:hover {

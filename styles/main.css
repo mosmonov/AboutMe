@@ -17,13 +17,13 @@ h1 {
 	border: 1px solid black;
 }
 nav {
-	margin-left: 10%;
+	margin-left: 5%;
 }
 nav a {
 	display: inline-block;
 	margin: 40px 40px;
 	text-decoration: none;
-	padding: 15px 45px;
+	padding: 15px 35px;
 	border-radius: 5px;
 	color: black;
 	font-size: 28px;
@@ -43,11 +43,24 @@ a:active {
 	box-shadow: 0 2px 0 #006599;
   	transform: translateY(3px); 	
 }
+
 .author p {
 	font-size: 24px;
 	text-align: center;
 	margin: 15%;
 	color: white;
+}
+@media only screen and (max-width: 700px){
+    nav a {
+        width: 25%;
+        margin: 6px 5px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    nav a {
+        width: 100%;
+    }
 }
 
 
