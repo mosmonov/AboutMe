@@ -26,17 +26,24 @@ nav a {
 	display: block;
 	clear: both;
 }
+a:link {
+    background-color: #FFA; 
+}
+
+a:visited {
+    background-color: #FFF; 
+}
 a:hover {
-	opacity: 0.5;
-	filter: alpha (opacity=50);
+    opacity: 0.5;
+    filter: alpha (opacity=50);
 }
 a:focus {
-	background: #FFF;
+    background: #FFF;
 }
 a:active {
-	background: #0087cc;
-	box-shadow: 0 2px 0 #006599;
-  	transform: translateY(3px); 	
+    background: #0087cc;
+    box-shadow: 0 2px 0 #006599;
+    transform: translateY(3px);     
 }
  .showbox {
  	margin-top: 1%;
@@ -77,5 +84,18 @@ a:active {
 	margin-bottom: 15%;
 	color: white;
 }
+@media only screen and (max-width: 700px){
+    nav a {
+        width: 25%;
+        margin: 6px 5px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    nav a {
+        width: 100%;
+    }
+}
+
 
 
